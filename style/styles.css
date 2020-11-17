@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap");
+
+body {
+  margin: 0%;
+}
+@media only screen and (max-device-width: 640px) {
+  body {
+  }
+  #top_header {
+    display: flex;
+    flex-direction: column;
+  }
+  #header {
+    background-repeat: no-repeat;
+    padding-top: 0.1rem;
+    display: block;
+  }
+  .contact-info {
+    align-items: flex-start;
+  }
+  #header_nav {
+    float: left;
+  }
+  #nav_list {
+    display: flex;
+
+    padding-left: 4.7em;
+  }
+  #platform_p {
+    display: flex;
+    padding-top: 0%;
+    height: 2rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #platform {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4%;
+  }
+  #header {
+    padding-top: 0.5rem;
+    height: 460px;
+  }
+  #p_card {
+    width: 25%;
+    padding-top: 4%;
+    margin: 4.5%;
+  }
+  #f_contianer {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-items: center;
+    padding-top: 5%;
+  }
+
+  #testmonial {
+    background-color: #1346b7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #left {
+    padding-bottom: 4%;
+  }
+}
+#header {
+  padding-top: 0.5rem;
+  height: 704 px;
+  color: white;
+  background-image: url("../images/xps-4TBSG2Oqu0Q-unsplash.jpg");
+}
+#top_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  padding-right: 3rem;
+}
+#logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 8%;
+}
+#nav_list {
+  list-style-type: none;
+  float: right;
+  padding-right: 3rem;
+}
+#nav_items {
+  padding-right: 0.2rem;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#h_disc {
+  padding: 15%;
+  font-size: 1.1rem;
+}
+button {
+  background-color: #28ddc4;
+  color: black;
+  font-size: 0.7rem;
+  padding: 1%;
+  border-radius: 5%;
+  border: none;
+}
+#hw_Disc {
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  width: 90%;
+}
+#coverRight {
+  width: 70%;
+  margin-left: 5rem;
+}
+/* ************************************************************************* */
+#platform_p {
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  font-size: 2rem;
+}
+#platform {
+  display: flex;
+  padding: 8%;
+}
+
+#p_card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: #e9ebef;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5%;
+  width: 25%;
+  padding-top: 2%;
+  margin: 2.5%;
+  height: 15rem;
+}
+#card_footer {
+  background-color: #e9ebef;
+  border-radius: 7%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* ************************************************************** */
+
+#f_contianer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  padding-top: 5%;
+}
+#aws {
+  background-color: white;
+}
+#faster_services {
+  padding: 2rem;
+  background-color: #e9ebef;
+}
+#f_p {
+  padding-left: 30%;
+  width: 1fr;
+  font-size: 2rem;
+}
+#f_card {
+  justify-content: center;
+  width: 12rem;
+  padding: 3%;
+}
+#f_btn {
+  width: 12rem;
+  height: 15%;
+}
+/* ********************************************* */
+#testmonial {
+  background-color: #1346b7;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 8%;
+}
+#left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#right {
+  background-color: white;
+  border-radius: 0.2rem;
+  width: 70%;
+  padding: 3%;
+}
+#t-btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+#name_pic {
+  padding: 3%;
+  display: flex;
+}
+/* ************************************************ */
+footer {
+  padding: 2%;
+  background-color: #0a0a0b;
+  color: #767a81;
+}
+#signup {
+  padding: 2%;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  color: white;
+}
+#email {
+  width: 40%;
+  height: 2rem;
+  margin-left: 2%;
+  background-color: #1c1c1d;
+  border: none;
+}
+#s_btn {
+  width: 10%;
+}
+#f_list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  width: 8rem;
+}
+#card_btn {
+  padding: 2%;
+  height: 2rem;
+  color: white;
+}
+/* ********************************************************************* */
+#support {
+  background-color: white;
+  padding: 12rem;
+}
+#s_header {
+  padding-left: 40%;
+}
+#s_left {
+  display: flex;
+  align-items: center;
+}
+#s_right {
+  display: flex;
+  align-items: center;
+}
+#fqa {
+  background-color: white;
+  padding: 4rem;
+}
+/* **************************************************************** */
+#AbotUS {
+  padding: 4%;
+  align-items: center;
+}
+#meet_team {
+  padding: 7%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

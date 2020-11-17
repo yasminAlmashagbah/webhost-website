@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;1,400;1,700&display=swap");
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.8rem;
+  --deafultblue1: #094bde;
+  --darkbluec: #05297c;
+  --blue3: #0735a0;
+  --blue4: #235cde;
+  --blue5: #4d79de;
+  --primaryblue: #02d8bb;
+  --darkprimaryblue: #008573;
+  --pblue: #00bca2;
+  --pblue2: #2ddcc4;
+  --pblue3: #58e1ce;
+  --secondery: #1c1e22;
+  --secondery2: #0c121e;
+  --secondery4: #40444d;
+  --secondery2: #1c1e22;
+}
+.heading {
+  font-size: 1.2rem;
+}
+.copy {
+  font-size: 0.6rem;
+}
+.lead {
+  font-weight: bold;
+}
+.bdy {
+  font-weight: lighter;
+}
+.blockquote {
+  border-left: var(--deafultblue1);
+  border: var(--secondery4);
+}
+.defaultBtn {
+  background-color: var(--deafultblue1);
+  color: white;
+  border-radius: 0.25rem;
+}
+.primaryBtn {
+  background-color: var(--primaryblue);
+  color: var(--secondery);
+  border-radius: 0.25rem;
+}
+.bad4 {
+  padding: 4%;
+}
+.simpleList {
+  list-style-type: none;
+}
+.flex {
+  display: flex;
+}
+.centerText {
+  padding-left: 40%;
+}
+.center {
+  margin-left: 40%;
+}
+.cover {
+  height: 80%;
+  background-size: 100%;
+  width: 100%;
+}
+
+.headerWithbackground {
+  background: rgba(9, 75, 222, 0.6);
+  margin-top: 10%;
+  padding-top: 2%;
+  padding-left: 40%;
+  padding-bottom: 2%;
+}
+.circle {
+  background-color: var(--blue4);
+  color: white;
+  border-radius: 50%;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin: 2%;
+  border: 5px solid #9ca5bb;
+}
